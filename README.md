@@ -20,8 +20,8 @@ This repo contains documentation and an example project to help with `rust_gpioz
 
 ## Documentation
 
-1. [User instructions](./blob/main/docs/user_instructions.md): how to access a Raspberry PI.
-2. [Cross compile](./blob/main/docs/cross_compile.md): how to cross compile Rust for the Raspberry Pi.
-3. [Sensors and actuators](./blob/main/docs/sensors.md): info about the input and output devices.
-4. [Network configuration](./blob/main/docs/network_configuration.md): reference for how the tunnelling is configured.
+1. [User instructions](./docs/user_instructions.md): how to access a Raspberry PI.
+2. [Cross compile](./docs/cross_compile.md): how to cross compile Rust for the Raspberry Pi.
+3. [Sensors and actuators](./docs/sensors.md): info about the input and output devices.
+4. [Network configuration](./docs/network_configuration.md): reference for how the tunnelling is configured.
 
