@@ -36,7 +36,7 @@ cross build --release --target arm-unknown-linux-gnueabi
 ```
 See the `Cross.toml` and `Dockerfile-arm` files for the details.
 
-This will [cross-compile opencv](https://docs.opencv.org/4.x/d0/d76/tutorial_arm_crosscompile_with_cmake.html) for arm-gnueabi. A successful build will generate a `gpiozero-test` binary.
+A successful build will generate a `gpiozero-test` binary.
 
 The binary can be transferred to the Raspberry Pi for execution (replace `192.168.0.1` with the IP address of your Pi):
 
@@ -53,7 +53,7 @@ cross build --release --target aarch64-unknown-linux-gnu
 ```
 See the `Cross.toml` and `Dockerfile-arm` files for the details.
 
-This will [cross-compile opencv](https://docs.opencv.org/4.x/d0/d76/tutorial_arm_crosscompile_with_cmake.html) for aarch64-gnu. A successful build will generate a `gpiozero-test` binary.
+A successful build will generate a `gpiozero-test` binary.
 
 The binary can be transferred to the Raspberry Pi for execution (replace `192.168.0.1` with the IP address of your Pi):
 
