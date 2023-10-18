@@ -1,0 +1,8 @@
+ARG CROSS_BASE_IMAGE
+FROM $CROSS_BASE_IMAGE
+
+# requirements of bindgen, see https://rust-lang.github.io/rust-bindgen/requirements.html
+RUN DEBIAN_FRONTEND=noninteractive apt-get clean
+RUN DEBIAN_FRONTEND=noninteractive apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt install -y llvm-dev libclang-dev clang libssl-dev
+
